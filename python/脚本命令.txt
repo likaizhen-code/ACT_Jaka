@@ -1,0 +1,8 @@
+#数据收集
+python collect_data.py collect --episodes 3 --task "TUI"
+
+#数据转换
+cd E:\jaka\SDK v2.2.2\02 example\python python export_dataset.py
+
+#模型推理
+cd E:\jaka\SDK v2.2.2\02 example\python act_infer.py
